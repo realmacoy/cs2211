@@ -1,0 +1,6 @@
+This program uses c99.
+To use the makefile, use 
+make all - this compiles the whole program, or just what has been changed
+make test - this will run a series of test cases.
+*NOTE- if the make file does not work on the unix server, use vi to open the makefile and make sure the windows end line characters
+       are not present, if they are delete them from the end of each line. The characters look like (^M)
